@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .service-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .contact {
+      text-align: center;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h2 {
+      color: #1e88e5;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CyberEdge Agency</h1>
+    <p>Grow your business with our powerful digital solutions</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Facebook Ads</h3>
+        <p>Reach your ideal customers through highly targeted Facebook advertising campaigns.</p>
+      </div>
+      <div class="service-card">
+        <h3>Google Ads</h3>
+        <p>Get instant traffic and leads with professionally managed Google Ads campaigns.</p>
+      </div>
+      <div class="service-card">
+        <h3>Website Design</h3>
+        <p>We build modern, responsive websites tailored to your brand and goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <p>📧 Email: contact@cyberedge.com</p>
+      <p>📞 Phone: +880 1234 567890</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CyberEdge Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>
